@@ -6,7 +6,7 @@ public partial class CoreConfigSingboxService
     {
         try
         {
-            singboxConfig.route.final = Global.ProxyTag;
+            singboxConfig.route.final = Global.DirectTag;
             var item = _config.SimpleDNSItem;
 
             var defaultDomainResolverTag = Global.SingboxDirectDNSTag;
